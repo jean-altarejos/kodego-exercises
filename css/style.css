@@ -1,32 +1,106 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
 
-body{
-    font-family: 'Poppins', sans-serif;
-    font-size: 18px;
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.2rem;
     color: #333333;
+    line-height: 1.5;
+    margin:0;
+    padding:0;
 }
 
-.container {
-    background-color: #F6F8FA;
-    margin: auto;
-    padding: 50px;
+main {
+    border-top: 5px solid black;
+    padding-top: 20px;
+    padding-left: 7%;
+    padding-right: 7%;
+    padding-bottom: 20px;
+}
+
+.main-heading {
+    font-size: 2.5em;
+    font-weight: bolder;
     text-align: center;
+    color: #384E77;
 }
 
-#title-text {
-    font-size: 2.5rem;
-    color:deepskyblue;
+.heading {
+    font-size: 1.8em;
+    font-weight: bold;
+    text-align: center;
+    color: #8BBEB2; 
 }
 
-ul {
-    display: flex;
-    align-items: stretch;
-    justify-content: center;
-    
+
+.center-element{
+    display: block;
+    margin: auto;
+    width: 60%;
 }
 
-li {
-    list-style-type: none;
+.code-example {
+    display:block;
+    margin: 15px;
+    padding: 20px;
+    text-align: center;
+    font-family: monospace;
+    background-color: #eeeef0;
+    color: #414141;
+}
+
+
+.code-property {
+    color: #4E937A;
+}
+
+.articles {
+    width: 80%;
     padding: 15px;
+    margin: auto;
 }
 
+
+.articles:nth-child(odd) {
+    background-color: #dfdfdf;
+    border-radius: 5px;
+}
+
+.section-one{
+    width: 45%;
+    max-height: 300px;
+    float: left;
+    padding: 18px;
+    background-color: #8BBEB2;
+    border-radius: 5px;
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+
+.section-one > h3, .section-one > p {
+    color: white;
+}
+
+.section-two{
+    width: 45%;
+    max-height: 300px;
+    float: right;
+    padding: 15px 15px 45px 15px;
+    background-color: #65998d;
+    opacity: 0.6;
+    border-radius: 5px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.section-two > h3, .section-two > p {
+    color: white;
+}
+
+.clear {
+    clear: left;
+}
+
+.highlight {
+    background-color: #dadada;
+    padding: 5px;
+}
