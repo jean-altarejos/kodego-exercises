@@ -104,3 +104,11 @@ main {
     background-color: #dadada;
     padding: 5px;
 }
+
+button{
+    background-color: blueviolet;
+    color: white;
+    border-radius: 5px;
+    font-size: 14px;
+    margin: 20px;
+}
