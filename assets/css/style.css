@@ -1,0 +1,61 @@
+header{
+    text-align: center;
+}
+
+.navbar{
+    text-align: center;
+}
+
+.main-nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navlist {
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    list-style-type: none;
+}
+
+.subnav {
+    display: block;
+}
+
+.aleft{
+    width: 20%;
+    height: 500px;
+    float: left;
+}
+
+.book2-img {
+    width: 60%;
+    height: 50%;
+}
+
+section{
+    width: 50%;
+    float: left;
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.aright{
+    width: 27%;
+    height: 500px;
+    float: right;
+}
+
+.kali-img{
+    width: 80%;
+    height: 80%;
+}
+
+footer{
+    text-align: center;
+    clear: both;
+}

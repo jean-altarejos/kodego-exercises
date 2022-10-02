@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+    color: #333333;
+}
+
+p {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.wrapper {
+    text-align: center;
+}
+
+.enroll-btn {
+    background-color: fuchsia;
+    border: 1px solid white;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+
+.container {
+    background-color: #f3f3f3;
+    
+}
+
+.small-img {
+    width: 80%;
+}
+
+.left-side-div {
+    margin-top: 20px;
+    position: relative;
+    width: 63%;
+    background-color: white;
+}
+
+.right-side-div {
+    position: absolute;
+    right: 3px; 
+    width: 35%;
+}
+
+.content {
+    padding: 15px;
+}
+
+.alert {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+
+}
+
+button {
+    padding: 10px;
+    background-color: orange;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.promo {
+    position: sticky;
+    bottom: 1px;
+    left: 1px;
+
+}
+
+.promo-btn {
+    padding: 20px;
+    width: 20%;
+}
