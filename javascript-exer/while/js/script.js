@@ -1,4 +1,5 @@
 
+let btnCheck = document.querySelector("btn-check");
 
 function todo() {
     const todoList = ["Get Groceries", "Walk the dog", "Groom the cats",
