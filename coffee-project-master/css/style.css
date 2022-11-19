@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan&display=swap');
+
+body{
+    font-family: 'League Spartan', sans-serif;
+    font-size: 20px;
+    font-weight: 500px;
+    color:#333333;
+}
+
+
+.hero-kv{
+    position: relative;
+}
+
+.hero-cta{
+    background: rgb(0,0,0,0.5);
+    color: #fafafa;
+    position: absolute;
+    top: 0;
+    padding-top: 10%;
+    width:100%;
+    height:100%;
+}
+
+section {
+    padding: 80px 50px;
+    margin: 15px 7px;
+}
+
+.hero-section {
+    text-align: center;
+    color: white;
+    padding-left: 15%;
+    padding-right: 15%;
+    margin: 0;
+}
+
+.products-offered{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.product-article {
+    width: 30%;
+    border-radius: 10px;
+    box-shadow: #333333;
+    padding: 50px;
+    text-align: center;
+    margin:15px;
+    border: #dadada solid 2px;
+    border-top:brown solid 3px;
+}
+
+.cta-button {
+    background-color: #6f4e37;
+    color: #fafafa;
+}
+
+.container-fluid {
+    padding: 80px 50px;
+    margin: 15px 7px;
+}
+
+.spacer {
+    padding-top: 10%;
+    padding-right: 80px;
+}
+
+.coffee-section {
+   display:flex;
+   height: 100%;
+}
+
+.full-img {
+    background-image: url("../asset/img/coffee-and-waffle.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    width: 100%;
+    height: 800px;
+}
+
+
+.coffee-article {
+    width: 50%;
+    padding-right: 80px;
+}
+
+
+.spacing {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.gallery {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+.coffee-img {
+    width: 100%;
+    height: 300px;
+    background-size: contain;
+    margin: 0 5px;
+}
+
+.color-brown {
+    color:#6f4e37;
+}
+
+.bgcolor-brown {
+    background-color:#6f4e37;
+}
+
+.footer-cta {
+    color:#fafafa;
+    background-color:#6f4e37;
+    text-align: center;
+    margin: 0;
+}
+
+footer{
+    clear: both;
+    padding: 15px 50px;
+    background-color: #fca465e8;
+    color:white;
+    text-align: center;
+}
+
+.socials {
+    margin: 5px;
+}
+
+.sample-bg {
+   background: url(images/bg.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+/*CONTACT US PAGE CSS*/
+
+.form-section {
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.contact-us-hero {
+    position: relative;
+}
+
+.contact-us-cta {
+    position: absolute;
+    background: rgb(0,0,0,0.5);
+    color: white;
+    top: 0;
+    width:100%;
+    height:300px;
+    text-align: center;
+    padding-top: 120px;
+}
+
+@media screen and (min-width: 570px) {
+    .contact-us-form {
+      margin-top: 30px;
+  }
+}
+
+.bg-img {
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+
+@media screen and (min-width: 990px) {
+    .all-day-breakfast {
+      text-align: left;
+  }
+}

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning HTML Forms</title>
+</head>
+<body>
+
+    <p><a href="../index.html">Back Home</a></p>
+    <h1>Learning HTML Form</h1>
+
+    <!--Personal Info Form-->
+    <form id="personal-info-form">
+        <table frame="box" border="0" cellspacing ="5" cellpadding="5" width="50%">
+            <tr>
+                <td><label for="full-name">Full name</label></td>
+                <td><input type="text" name="full-name" required /></td>
+            </tr>
+            <tr>
+                <td><label for="password">Password</label></td>
+                <td><input type="password" name="password" required /></td>
+            </tr>
+
+            <tr>
+                <td><label for="email">Email Address</label></td>
+                <td><input type="text" name="email" required /></td>
+            </tr>
+
+            <tr>
+                <td><label for="status">Status</label></td>
+                <td>
+                    Single<input type="radio" name="single" value="single"/>
+                    Married<input type="radio" name="married" value="married"/>
+                    Widow<input type="radio" name="widow" value="widow"/>
+                </td>
+            </tr>
+
+            <tr>
+                <td><label for="dob">Date of Birth</label></td>
+                <td><input type="date" name="dob"/></td>
+            </tr>
+
+            <tr>
+                <td><label for="age">Age</label></td>
+                <td><input type="text" name="age" required /></td>
+            </tr>
+
+            <tr>
+                <td><label for="ids">Government Benefits</label></td>
+                <td>
+                    <input type="checkbox" name="sss" value="sss"/> SSS<br>
+                    <input type="checkbox" name="hdmf" value="hdmf"/> HDMF<br>
+                    <input type="checkbox" name="philhealth" value="philhealth"/> Philhealth<br>
+            </tr>
+
+            <tr>
+                <td><label for="schedule">Preferred Schedule</label></td>
+                <td><input type="datetime-local" name="schedule"/></td>
+            </tr>
+
+            <tr>
+                <td><label for="payout-options">Payout Options</label></td>
+                <td><select name="payout-options" id="payout">
+                        <option value="Monthly">Monthly</option>
+                        <option value="Quarterly">Quarterly</option>
+                        <option value="Yearly">Yearly</option>
+                </select></td>
+            </tr>
+
+            <tr>
+                <td><label for="internet">Internet Provider</label></td>
+                <td><input type="text" name="internet-provider"/></td>
+            </tr>
+
+            <tr>
+                <td><label for="upload-file">Upload ID Photo</label></td>
+                <td><input type="file" name="upload-file"/></td>
+            </tr>
+
+            <tr>
+                <td><label for="add-info">Additional Info</label></td>
+                <td><textarea name="add-info" rows="5" cols="20" placeholder=""></textarea></td>
+            </tr>
+        </table>
+
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
