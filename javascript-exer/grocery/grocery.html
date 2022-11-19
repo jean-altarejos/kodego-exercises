@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grocery Items</title>
+
+    <link rel="stylesheet" href="/css/style.css" />
+    
+
+</head>
+<body onload="showList()">
+    <!--Create a simple HTML Page that list out 20 Grocery items using a for loop. Use <ul> for the items -->
+    <div class="container">
+        <h1 class="title">Grocery Lists</h1>
+        <ul id="grocery-list"></ul>
+        <input type="text" class="input-item">
+        <button class="btn-add">Add Groceries</button>
+    </div>
+
+    <div class="container">
+        <h1 class="title">Solution</h1>
+        <pre>
+        function showList() {
+            const groceryList = ["Tomato", "Onion", "Garlic", "Salt", 
+            "Pepper", "Rosemary", "Chili", "Fish", "Chicken", "Pork",
+            "Beef", "Vegetables", "Fruits", "Butter", "Cheese", "Pasta",
+            "Ketchup", "Soy Sauce", "Vinegar", "Fish Sauce"];
+            
+            for (let i = 0; i <= groceryList.length-1; i++){
+                const newLi = document.createElement("li");
+                const item = document.createTextNode(groceryList[i]);
+                newLi.appendChild(item);
+        
+                const newList = document.querySelector("#grocery-list");
+                newList.appendChild(newLi);
+            }
+            
+        }
+        </pre>
+    </div>
+
+    
+</body>
+<script src="../grocery/js/script.js"></script>
+</html>
