@@ -12,22 +12,29 @@
     <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
 
-    <link rel="stylesheet" href="/javascript-exer/while/css/style.css">
+    <link rel="stylesheet" href="/javascript-exer/temperature/css/style.css">
 
     <title>Temperature</title>
 </head>
-<body>
+<body onload="temperature()">
     <div class="container">
         <h1 class="text-center">Temperature</h1>
         <div class="input-group mb-3">
             <span class="input-group-text">Fahrenheit</span>
-            <input type="text" class="form-control">
+            <input type="text" class="form-control fahrenheit-num" id="fResult" value= 0>
         </div>
         <br>
         <div class="input-group mb-3">
             <span class="input-group-text">Celsius</span>
-            <input type="text" class="form-control">
+            <input type="text" class="form-control celsius-num" id="cResult" value= 0>
         </div>
-    </div> 
+
+        <div class="d-grid gap-2 col-2 mx-auto">
+            <button class="btn-primary btnSubmit" onclick="temperature()" type="button">Convert</button>
+        </div>
+        
+    </div>
+
+    <script src="/javascript-exer/temperature/js/script.js"></script>
 </body>
 </html>
